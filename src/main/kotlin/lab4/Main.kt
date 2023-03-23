@@ -1,5 +1,8 @@
 package lab4
 
+/*Вивести на екран таблицю значень функції Y(x) та її розклад в ряд S(x) для х,
+що змінюється від а до b з кроком h=(a-b)/10.*/
+
 import kotlin.math.exp
 import kotlin.math.pow
 
