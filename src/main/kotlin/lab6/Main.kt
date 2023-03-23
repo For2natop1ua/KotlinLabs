@@ -6,9 +6,9 @@ package lab6
 
 fun main(){
     val matrix = arrayOf(
-        arrayOf('a', 'b', 'c'),
-        arrayOf('d', 'e', 'f'),
-        arrayOf('a', 'b', 'g')
+        arrayOf('a', 'b', 'c', 'd'),
+        arrayOf('d', 'e', 'f', 'g'),
+        arrayOf('a', 'b', 'g', 'h'),
     )
     val distinctCount = countDistinctElements(matrix)
     println("Задана матриця:")
