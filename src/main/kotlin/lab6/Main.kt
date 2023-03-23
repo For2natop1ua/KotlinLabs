@@ -11,6 +11,13 @@ fun main(){
         arrayOf('a', 'b', 'g')
     )
     val distinctCount = countDistinctElements(matrix)
+    println("Задана матриця:")
+    for (row in matrix) {
+        for (element in row) {
+            print("$element ")
+        }
+        println() // додаємо порожній рядок в кінці кожного рядка матриці
+    }
     println("Кількість різних особистих елементів матриці: $distinctCount")
 }
 
