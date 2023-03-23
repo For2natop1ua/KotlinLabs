@@ -7,7 +7,7 @@ package lab6
 fun main(){
     val matrix = arrayOf(
         arrayOf('a', 'b', 'c', 'd'),
-        arrayOf('d', 'e', 'f', 'g'),
+        arrayOf('d', 'e', 'f', 'a'),
         arrayOf('a', 'b', 'g', 'h'),
     )
     val distinctCount = countDistinctElements(matrix)
