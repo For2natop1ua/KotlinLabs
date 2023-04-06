@@ -9,7 +9,7 @@ import java.io.File
 
 fun main() {
     // назва вхідного файлу
-    val filePath = "D:\\ХАІ\\4 курс\\Мобільні технології\\KotlinLabs\\src\\main\\kotlin\\Module1\\input.txt"
+    val filePath = "src/main/kotlin/module1/input.txt"
     val output = StringBuilder() // буфер для запису трансформованого тексту
 
     File(filePath).forEachLine { line ->
