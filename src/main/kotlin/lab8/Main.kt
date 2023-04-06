@@ -1,5 +1,8 @@
 package lab8
 
+/*Для книг, що зберігаються в бібліотеці, задаються автор, назва, рік видання, кількість сторінок.
+Вивести перелік книг, виданих після заданого року.*/
+
 import java.io.File
 
 data class Book(val author: String, val title: String, val year: Int, val pages: Int)
